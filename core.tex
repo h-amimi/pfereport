@@ -1,0 +1,76 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[english,french]{babel}%Traduction français
+\usepackage[utf8]{inputenc}%UTF8 encoding
+\usepackage[T1]{fontenc}
+\usepackage{blindtext}%random text
+\usepackage{fancyhdr}%Header Footer custom
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{setspace}
+
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+
+\renewcommand\footnoterule{\rule{\linewidth}{0pt}}
+\setlength{\skip\footins}{1.25cm}
+\setlength{\parskip}{2ex}
+\renewcommand{\baselinestretch}{1.08}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\lhead{}
+\lfoot{Rapport de stage 2018}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\geometry{
+	a4paper,
+	top=25mm,
+	bottom=25mm,
+	left=25mm,
+	right=25mm
+}
+\linespread{1.5}
+
+\fancyheadoffset[LE]{9pt}
+
+\begin{document}
+%\input{dedicace}
+%\input{remerciement}
+\input{resume}
+\listoffigures
+\tableofcontents
+\input{test}
+%\input{intro}
+%\input{chap1}
+%\input{chap2}
+%\input{chap3}
+\end{document}
+
+
+
+% \chapter{qsdf}
+% \section{qsdf}
+% \subsection{dsqfqs}
+
+% \begin{itemize}
+% 	\item lmsqdkjflqmks
+% 	\item fmlkdqsjfmlkq
+% \end{itemize}
+
+% \begin{figure}[H]
+% \centering
+% \includegraphics[scale=1]{images/test}
+% \caption{figure}
+% \end{figure}
